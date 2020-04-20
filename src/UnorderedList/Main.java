@@ -20,7 +20,7 @@ public class Main {
     Arrays.stream(threads).forEach(Thread::start);
     Arrays.stream(threads).forEach(t -> {
       try {
-        t.join(); 
+        t.join();
       } catch(InterruptedException ignored) {
 
       }
